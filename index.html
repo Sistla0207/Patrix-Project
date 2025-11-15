@@ -3,71 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-   <main id="main-container">
-    <!-- nan bar starts here  -->
-        <nav class="nav-bar">
-            <div class="nav-bar-left">
-                <span><h1>Sistla Hema Lahari</h1></span>
-            </div>
-            <div class="nav-bar-right">
-                <div>
-                     <div> 
-                        <a href="">Home</a></div>
-                     <div> 
-                        <a href="">Services</a></div>
-                     <div> 
-                        <a href="">Testimonials</a></div>
-                     <div> 
-                        <a href="">Faq</a></div>
-                     <div> 
-                        <a href="">portfolio</a></div>
-                     <div> 
-                        <a href="">Contact</a></div>
-                     <div>
+    <title>Sistla Hema Lahari</title>
 
-                        <div class="menu-bar">
-                           <input type="checkbox">
-                           <i class="fa-solid fa-bars"></i>
-                              <div class="all-menu">
-                                       <div> 
-                                <a href="">Home</a></div>
-                     <div> 
-                        <a href="">Services</a></div>
-                     <div> 
-                        <a href="">Testimonials</a></div>
-                     <div> 
-                        <a href="">Faq</a></div>
-                     <div> 
-                        <a href="">portfolio</a></div>
-                     <div> 
-                        <a href="">Contact</a></div>
-                     <div>
-                              </div>
-                        </div>
-                     </div>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<main id="main-container">
+
+    <!-- ================= NAVIGATION BAR ================= -->
+    <nav class="nav-bar">
+
+        <div class="nav-bar-left">
+            <h1>Sistla Hema Lahari</h1>
+        </div>
+
+        <div class="nav-bar-right">
+
+            <!-- Desktop Links -->
+            <div class="nav-links">
+                <a href="">Home</a>
+                <a href="">Services</a>
+                <a href="">Testimonials</a>
+                <a href="">FAQ</a>
+                <a href="">Portfolio</a>
+                <a href="">Contact</a>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="menu-bar">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+                <!-- Dropdown -->
+                <div class="all-menu">
+                    <a href="">Home</a>
+                    <a href="">Services</a>
+                    <a href="">Testimonials</a>
+                    <a href="">FAQ</a>
+                    <a href="">Portfolio</a>
+                    <a href="">Contact</a>
                 </div>
             </div>
-        </nav>
-        <!-- body starts here -->
-        <section id="body">
-         <div class="data-container">
-            <div>
-               <h1>Hey!, I'm Patrick</h1>
-               <p>this is a multi-purpose responsive layout created with bootstrap v5. (here your can place your description text)</p>
-               <button>Get in touch</button>
+
+        </div>
+
+    </nav>
+
+    <!-- ================= BODY SECTION ================= -->
+    <section id="body">
+
+        <div class="data-container">
+
+            <div class="content">
+                <h1>Hey!, I'm Patrick</h1>
+                <p>This is a multi-purpose responsive layout created with Bootstrap v5.
+                    (Here you can place your description text)</p>
+                <button>Get in touch</button>
             </div>
+
             <div></div>
-         </div>
-            <div class="style-container">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-            </div>
-            
-        </section>
-   </main> 
+        </div>
+
+        <!-- WAVE SHAPE -->
+        <div class="style-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#000" fill-opacity="1"
+                      d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,
+                      576,133.3C672,139,768,213,864,202.7C960,192,1056,96,
+                      1152,74.7C1248,53,1344,107,1392,133.3L1440,160V320H0Z">
+                </path>
+            </svg>
+        </div>
+
+    </section>
+
+</main>
+
 </body>
 </html>
